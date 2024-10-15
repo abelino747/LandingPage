@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-image: url(/image/wheat-2549245_960_720.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #4c4f32;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 50%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #cfcbcb;
+    border-radius: 1.2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.2em;
+    background-color: rgb(125, 123, 123);
+
+}
+
+main article figure,
+main article p {
+    text-align: center;
+    width: 45%;
+    padding: 0px 10px;
+}
+
+main article p {
+    text-align: justify;
+    padding: 20px;
+    width: 55%;
+}
+
+main img {
+    max-width: 100%;
+    max-height: 90%;
+    height: 350px;
+    border-radius: 1.2em;
+
+}
+
+main #ingredientes #lista {
+    display: flex;
+    background-color: #cfcbcb;
+    border-radius: 0;
+}
+
+main #ingredientes ul {
+    padding: 25px;
+
+}
+
+main #ingredientes img {
+    align-content: flex-start;
+    height: 290px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1.2em;
+}
+
+main #pasos ul {
+    list-style: none;
+}
+
+main #pasos ul li,
+main #pasos ul p {
+    width: 45%;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+main #pasos ul img {
+    width: 300px;
+    height: 230px;
+    margin: 20px;
+    border-radius: 1.2em;
+    align-self: start;
+
+}
+
+main #pasos ul p {
+    display: inline-block;
+}
+
+@media (min-width: 500px)  and (max-width: 900px)  {
+
+    main #pasos ul li,
+    main #pasos ul p,
+    main #pasos ul img
+     {
+        width: 90%;
+
+    }
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4c4f32;
+    color: #fff;
+    margin-top: 20px;
+}
