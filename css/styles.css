@@ -54,7 +54,6 @@ main article {
     justify-content: space-between;
     border-radius: 1.2em;
     background-color: rgb(125, 123, 123);
-
 }
 
 main article figure,
@@ -75,7 +74,6 @@ main img {
     max-height: 90%;
     height: 350px;
     border-radius: 1.2em;
-
 }
 
 main #ingredientes #lista {
